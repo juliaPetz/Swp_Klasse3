@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class ArrayMagnifier {
 
-  //tag::solution[]
+
   public static int[][] magnify( int[][] array, int factor ) {
     int width = array[ 0 ].length;
     int height = array.length;
@@ -43,5 +43,5 @@ public class ArrayMagnifier {
     int[][] result = magnify( testArray, 2 );
     printValues( result );
   }
-  //end::solution[]
+
 }
